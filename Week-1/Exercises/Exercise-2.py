@@ -17,7 +17,10 @@ Write a for-loop that prints out the following line 20 times:
 
 print("Exercise 2.1")
 
-pass
+counter1 = 0
+for counter1 in range(20) :
+  print('All work and no play makes Jack a dull boy.')
+  counter1 += 1
 
 print("---")
 """
@@ -30,7 +33,10 @@ Write a for-loop that prints out the numbers from 0 up to 5 inclusive.
 
 print("Exercise 2.2")
 
-pass
+counter2 = 0
+for counter2 in range(6) :
+   print(counter2)
+   counter2 =+ 1
 
 print("---")
 
@@ -45,7 +51,11 @@ Write a for-loop that prints out the EVEN numbers from 2 up to 8 inclusive.
 
 print("Exercise 2.3")
 
-pass
+counter3 = 1
+for counter3 in range(9) :
+   if counter3 % 2 == 0:
+      print(counter3)
+      counter3 += 1
 
 print("---")
 
@@ -59,7 +69,11 @@ Now write another loop to print 9 through 0 (i.e., backwards).
 
 print("Exercise 2.4")
 
-pass
+counter4 = 9
+for counter4 in range(9, -1, -1):
+   if counter4 % 2 == 1 :
+    print(counter4)
+    counter4 -= 1
 
 print("---")
 
@@ -81,7 +95,10 @@ Write code that prints out the following sequence:
 
 print("Exercise 2.5")
 
-pass
+counter5 = 0
+for counter5 in range(9) :
+   print('z'*counter5)
+   counter5 =+ 1
 
 print("---")
 
@@ -106,8 +123,13 @@ of a simple print-statement.
 
 print("Exercise 2.6")
 
-pass
-
+counter6 = 1
+for counter6 in range(1, 6):
+  for i in range(1, counter6 + 1):
+    print(i, end='')
+  print()
+  
+  
 print("---")
 
 """
@@ -135,7 +157,10 @@ your code needs to carry out for a certain value of rows.
 print("Exercise 2.7")
 
 rows = 5
-pass
+nbr_o = 1
+for counter7 in range(rows) :
+  print(' ' * (rows - counter7 - 1) + 'o' * nbr_o)
+  nbr_o += 2
 
 print("---")
 
@@ -163,6 +188,7 @@ on how to align the numbers.
 
 print("Exercise 2.8")
 
-pass
+for x in range(1, 11):
+  print(''.join('{:4d}'.format(x*y) for y in range(1, 11)))
 
 print("---")
