@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Thu Feb 26 2026 18:34:12
+#sha1: 757588
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-Martin.local', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+5476,design,log,
+#design: #exp: Launching
+#design: block_cnt,block_id,trial_cnt,trial_id
+5476,design,logged,
+5476,Experiment,started
+5477,Stimulus,presented,0
+5482,Stimulus,presented,1
+6483,stderr,received,'Traceback (most recent call last):'
+6483,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/launching.py", line 28, in <module>\n    for i in 100 :\n             ^^^'
+6483,stderr,received,"TypeError: 'int' object is not iterable"

@@ -24,7 +24,7 @@ square.present(clear = True, update=False)
 fixation.present(clear=False, update=True)
 
 # Leave it on-screen for 500 ms
-exp.clock.wait(2000)
+exp.clock.wait(500)
 
 # Remove the cross but leave the square
 square.present(clear=True, update=True)

@@ -3,7 +3,7 @@ from expyriment import design, control, stimuli
 control.set_develop_mode()
 
 # Create an object of class Experiment: This stores the global settings of your experiment & handles the data file, screen, and input devices
-exp = design.Experiment(name = "Square")
+exp = design.Experiment(name = "two_Square")
 
 # Initialize the experiment: Must be done before presenting any stimulus
 control.initialize(exp)
