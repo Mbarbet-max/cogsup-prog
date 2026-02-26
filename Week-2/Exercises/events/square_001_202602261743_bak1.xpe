@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Thu Feb 26 2026 17:43:05
+#sha1: db2f0d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-Martin.local', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+14467,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+14467,design,logged,
+14467,Experiment,started
+14476,Stimulus,presented,1
+14493,Stimulus,presented,0
+16506,Stimulus,presented,1
+17339,Keyboard,received,32,wait
+17339,Experiment,ended
+17356,Stimulus,presented,2
