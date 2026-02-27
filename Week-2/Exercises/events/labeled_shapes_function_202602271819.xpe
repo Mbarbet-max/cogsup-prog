@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Fri Feb 27 2026 18:19:07
+#sha1: bc72c6
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBookPro.lan', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+987,stderr,received,'Traceback (most recent call last):'
+988,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes_function.py", line 37, in <module>\n    shape_fct(3,(100,0,0),0,0)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^'
+988,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes_function.py", line 14, in shape_fct\n    coloured_shape = stimuli.Shape(position = pos, colour = color)\n                                              ^^^'
+988,stderr,received,"NameError: name 'pos' is not defined. Did you mean: 'pow'?"

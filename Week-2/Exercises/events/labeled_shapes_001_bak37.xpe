@@ -1,0 +1,24 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Fri Feb 27 2026 17:51:17
+#sha1: b06272
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBookPro.lan', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1346,design,log,
+#design: #exp: two_Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+1346,design,logged,
+1346,Experiment,started
+1347,Stimulus,presented,0
+1348,Stimulus,presented,1
+1349,Stimulus,presented,2
+1350,Stimulus,presented,3
+1353,stderr,received,'Traceback (most recent call last):'
+1355,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes.py", line 33, in <module>\n    triangle_text.present(clear= False, update= False)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1355,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 1171, in present\n    self.preload(inhibit_ogl_compress=True)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1355,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 1059, in preload\n    self._get_surface(),\n    ~~~~~~~~~~~~~~~~~^^'
+1355,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface\n    tmp = self._create_surface()'
+1355,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_textbox.py", line 331, in _create_surface\n    return self.render_textrect(self.format_block(_text),\n           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n                                _font, rect, self.text_colour,\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                                self.background_colour,\n                                ^^^^^^^^^^^^^^^^^^^^^^^\n                                self.text_justification)\n                                ^^^^^^^^^^^^^^^^^^^^^^^^'
+1355,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_textbox.py", line 406, in render_textrect\n    raise Exception(\n        "Once word-wrapped," +\n        "the text string was too tall to fit in the rect.")'
+1355,stderr,received,'Exception: Once word-wrapped,the text string was too tall to fit in the rect.'

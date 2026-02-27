@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Fri Feb 27 2026 18:24:25
+#sha1: f63b85
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBookPro.lan', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+788,stderr,received,'Traceback (most recent call last):'
+788,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes_function.py", line 36, in <module>\n    shape_fct(12,(102,2,60),0,0)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^'
+788,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes_function.py", line 21, in shape_fct\n    shape_text = stimuli.TextBox(text = dict_polygon[nbr_sides], size= (200,40), position= (x_pos, y_pos + 91))\n                                        ~~~~~~~~~~~~^^^^^^^^^^^'
+788,stderr,received,'KeyError: 12'

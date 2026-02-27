@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Fri Feb 27 2026 18:45:14
+#sha1: 85b3eb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBookPro.lan', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+931,stderr,received,'Traceback (most recent call last):'
+932,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes_function.py", line 42, in <module>\n    shape_fct(10,(102,2,60),0,0)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^'
+932,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes_function.py", line 25, in shape_fct\n    shape_text = stimuli.TextBox(text = "fick dich", size= (200,40), position= (1/2 * 50 * 1/math.tan(math.pi/nbr_sides)) + 70)'
+932,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_textbox.py", line 87, in __init__\n    Visual.__init__(self, position)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^'
+932,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 237, in __init__\n    self._position = list(position)\n                     ~~~~^^^^^^^^^^'
+932,stderr,received,"TypeError: 'float' object is not iterable"

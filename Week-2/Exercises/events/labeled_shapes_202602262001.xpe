@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Thu Feb 26 2026 20:01:53
+#sha1: 978816
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-Martin.local', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+939,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x10ca5b2e0>'
+940,stderr,received,'Traceback (most recent call last):'
+940,stderr,received,'  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+941,stderr,received,'    if self._compression_filename is not None:'
+941,stderr,received,"AttributeError: 'Line' object has no attribute '_compression_filename'"
+942,stderr,received,'Traceback (most recent call last):'
+943,stderr,received,'  File "/Users/martoun/Desktop/CogSup/S2/Programming/Assignments/Week-2/Exercises/labeled_shapes.py", line 20, in <module>\n    white_line_triangle = stimuli.Line(start_point = (-25, 43.3), end_point = (-25, 93.3))'
+943,stderr,received,"TypeError: Line.__init__() missing 1 required positional argument: 'line_width'"

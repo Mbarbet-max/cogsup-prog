@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: UTF-8
+#date: Fri Feb 27 2026 18:24:04
+#sha1: 34756d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='MacBookPro.lan', release='24.4.0', version='Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1726,design,log,
+#design: #exp: labeled shapes function
+#design: block_cnt,block_id,trial_cnt,trial_id
+1726,design,logged,
+1726,Experiment,started
+1727,Stimulus,presented,0
+1729,Stimulus,presented,1
+1740,Stimulus,presented,2
+8280,Experiment,paused
+8285,Stimulus,presented,4
+10554,Keyboard,received,y,wait_char
+10554,Experiment,ended
